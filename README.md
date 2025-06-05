@@ -20,7 +20,8 @@ Install the required Python libraries:
 ```bash
 pip install fastapi keras mediapipe numpy opencv_python pandas sk_video tensorflow uvicorn
 ```
-FFmpeg Installation 
+FFmpeg Installation:
+
 [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
 
 ---
