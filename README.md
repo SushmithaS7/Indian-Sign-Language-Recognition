@@ -1,4 +1,4 @@
-#  Indian Sign Language (ISL) Real-Time Recognition System
+#  Indian Sign Language Recognition System
 
 This project presents a **real-time Indian Sign Language (ISL) recognition system** designed to identify static gestures for **alphabets (A–Z)**, **digits (1–9)**, and **frequent phrases**, with integrated **text-to-speech (TTS)** support to enable auditory feedback.
 
