@@ -26,7 +26,7 @@ FFmpeg Installation:
 
 ---
 
-## How to Run the Project
+## To Run the Project
 
 ### Clone the repository
 ```bash
