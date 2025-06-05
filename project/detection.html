@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Detection - ISL Recognition</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ISL Recognition</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/learn.html">Learn</a></li>
+                <li><a href="/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="detection-section">
+            <h2>Sign Detection</h2>
+            <div class="detection-buttons">
+                <button onclick="detectAlphabet()">Alphabet & Digit Recognition</button>
+                <button onclick="detectWord()">Word Recognition</button>
+            </div>
+            <div id="result" class="result-box"></div>
+           <div class="tts-wrapper">
+    <div id="tts-indicator" class="tts-indicator">
+        🔊 <span id="tts-status" class="tts-status" style="display: none;">Speaking...</span>
+    </div>
+</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">© 2024 ISL Recognition. All rights reserved.</div>
+    </footer>
+
+    <script src="/detection.js"></script>
+</body>
+</html>
