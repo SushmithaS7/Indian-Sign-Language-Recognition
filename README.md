@@ -13,10 +13,36 @@ This paper gives an overview of a real-time Indian Sign Language (ISL) recogniti
 ---
 
 
-## 🛠️ Requirements
+## Requirements
 
 ### Python Dependencies
 Install the required Python libraries:
 ```bash
 pip install fastapi keras mediapipe numpy opencv_python pandas sk_video tensorflow uvicorn
+```
+FFmpeg Installation 
+[https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+
+---
+
+## How to Run the Project
+
+```bash
+git clone https://github.com/SushmithaS7/Indian-Sign-Language-Recognition.git
+cd project
+npm install
+```
+### Start the Frontend
+
+```bash
+npm run dev
+```
+
+###Start the backend
+
+```bash
+uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+ 
 
